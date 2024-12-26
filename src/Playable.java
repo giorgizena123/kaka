@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
+public abstract class Playable {
+    public abstract void play();
+    public abstract void stop();
 
-public class Playable {
+    public void displayInfo() {
+    }
 }
+
